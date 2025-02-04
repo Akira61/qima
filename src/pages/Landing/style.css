@@ -156,8 +156,9 @@ button {
 /* Time line */
 .timeline {
   background-color: #FFD65A;
-  border-top-left-radius: 50px;
+  /* border-radius: 50px; */
   border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
 }
 .timeline-desc {
   text-align: center;
@@ -227,6 +228,16 @@ footer p a:hover {
   background-color: #111;
   margin: 4px 0;
   transition: 0.3s;
+}
+
+.map {
+  background-image: url('https://i.pinimg.com/736x/10/f6/64/10f664860e391c5d0b04a0bf94a153c5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400vh; /* Adjust as needed */
+    margin-top: 15px;
 }
 
 /* Media query for tablets and smaller devices */
